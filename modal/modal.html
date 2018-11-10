@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-use-rem="750">
+  <head>
+    <meta charset="utf-8">
+    <title>modal</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="m.atguat.com.cn">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="email=no">
+    <meta http-equiv="expires" content="0">
+    <meta name="applicable-device" content="mobile">
+    <link rel="dns-prefetch" href="//css.gomein.net.cn">
+    <link rel="dns-prefetch" href="//js.gomein.net.cn">
+    <script type="text/javascript">
+      (function appVersion() {
+        window.platform = {};
+        var ua = window.navigator.userAgent.toLowerCase();
+        var isIphone = ua.match(/iphone os/i) == 'iphone os'
+        var isAndroid = ua.match(/android/i) == 'android'
+        // ipad 也为mobile
+        var isMobile = ua.match(/mobile/i) == 'mobile'
+        var isIpad = ua.match(/ipad/) == 'ipad'
+        platform.isMobile = function () {
+            return isMobile && !isIpad;
+        }
+      })()
+      
+    </script>
+    <script>(function(){var b=document.querySelector('meta[name="viewport"]')||document.createElement("meta");b.setAttribute("name","viewport");if(window.is_zoom&&"Y"==is_zoom)var c=1,a=1;else a=(c=window.devicePixelRatio)?1/c:1;document.documentElement.setAttribute("data-dpr",c||1);b.setAttribute("content","width=device-width,initial-scale=1, maximum-scale="+a+", minimum-scale="+a+", user-scalable=no,viewport-fit=cover");document.head.appendChild(b);document.addEventListener("DOMContentLoaded",function(){b.setAttribute("content","width=device-width,initial-scale=1, maximum-scale="+a+", minimum-scale="+a+", user-scalable=no,viewport-fit=cover")})})();</script>
+    <script>(function(){document.documentElement.getAttribute("data-dpr");var a=100/750*document.documentElement.offsetWidth;document.querySelector("html").style.fontSize=a+"px";window.addEventListener("resize",function(){var a=100/750*document.querySelector("html").offsetWidth;document.querySelector("html").style.fontSize=a+"px"})})();</script>
+    <link type="text/css" rel="stylesheet" href="../common.css">
+
+<!--@end-->
+</head>
+<body class="opg"> 
+
+    <script type="text/javascript" src="./dist/modal.js"></script>
+    <script>
+        modal({
+        content:'模拟框',
+        cancelText: '取消',
+        cancel:() => {
+            console.log('取消')
+        },
+        finish:() => {
+            console.log('结束')
+        },
+        // time:2000,
+        confirm:() => {
+            console.log('确认')
+        },
+    });
+    </script>
+
+</body>
+</html>

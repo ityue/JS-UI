@@ -1,0 +1,19 @@
+{
+  "name": "jsui-css",
+  "version": "0.0.1",
+  "description": "JsUI依赖的css库",
+  "main": "./dist/main.js",
+  "dependencies": {
+    "css-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.23.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "renqingyue",
+  "license": "ISC"
+}
