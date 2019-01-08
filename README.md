@@ -15,7 +15,7 @@ toast提示
     1 安装  npm install js-toast
     2 引用  import toast from 'toast-js'
     3 使用  toast({content:'xxx'})
-#### 1.1.2 网页引用 dist下js
+#### 1.1.2 引用 dist下js
 
 ### 1.2 参数
 <table>
@@ -90,7 +90,7 @@ modal对话框
     1 安装  npm install js-modal
     2 引用  import modal from 'js-modal'
     3 使用  modal({content:'xxx'})
-#### 1.1.2 网页引用 dist下js
+#### 1.1.2 引用 dist下js
 
 ### 1.2 参数
 <table>
