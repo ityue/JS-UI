@@ -13,7 +13,7 @@ toast提示
 ### 1.1 使用
 #### 1.1.1 commonJs规范
     1 安装  npm install js-toast
-    2 引用  import toast from 'toast-js'
+    2 引用  import toast from 'js-toast'
     3 使用  toast({content:'xxx'})
 #### 1.1.2 引用 dist下js
 
