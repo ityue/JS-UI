@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "aaa": "0.0.2",
-    "gulp": "^3.9.1"
+    "gulp": "^4.0.2"
   },
   "devDependencies": {
     "gulp-clean-css": "^3.10.0"
