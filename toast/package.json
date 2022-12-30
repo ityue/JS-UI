@@ -8,10 +8,10 @@
   "author": "renyue",
   "license": "ISC",
   "dependencies": {
-    "webpack": "^4.23.0"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^5.0.1"
   },
   "description": ""
 }
